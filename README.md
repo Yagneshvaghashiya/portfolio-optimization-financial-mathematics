@@ -4,11 +4,10 @@
 
 Quantitative finance project applying Modern Portfolio Theory (MPT) to optimize a diversified stock portfolio across five sectors. This analysis employs advanced financial mathematics including mean-variance optimization, Capital Asset Pricing Model (CAPM), Value at Risk (VaR), and GARCH volatility modeling to construct efficient portfolios and assess risk-adjusted returns.
 
-**Student:** Yagnesh Vaghashiya (25002034)  
+**Student:** Yagnesh Vaghashiya  
 **Course:** MA7008 Financial Mathematics  
 **Institution:** London Metropolitan University  
 **Supervisor:** Dr. Jonathan Iworiso  
-**Submission Date:** January 16, 2026
 
 ---
 
@@ -313,7 +312,7 @@ library(FinTS)       # ARCH-LM test
 
 ```
 portfolio-optimization-financial-mathematics/
-├── excel-files/                                      # Excel workbooks with formulas
+├── excel-workbooks/                                      # Excel workbooks with formulas
 │   ├── portfolio_optimization.xlsx                   # Mean-variance optimization (Solver-ready)
 │   └── var_calculation.xlsx                          # Value at Risk calculations
 │
@@ -485,9 +484,9 @@ MIT License - See [LICENSE](LICENSE) file
 ## 📞 Contact
 
 **Yagnesh Vaghashiya**  
-Student ID: 25002034  
 London Metropolitan University  
-Email: yav0051@my.londonmet.ac.uk
+Email: yagneshvaghashiya602@gmail.com
+Mobile Number:+44 7887 172884
 
 **Supervisor:** Dr. Jonathan Iworiso
 
@@ -508,9 +507,6 @@ Email: yav0051@my.londonmet.ac.uk
 
 ---
 
-**Last Updated:** January 2026  
-**Project Status:** ✅ Complete and Submitted
 
----
 
 *This project demonstrates practical application of quantitative finance techniques to construct optimal investment portfolios with rigorous risk management.*
