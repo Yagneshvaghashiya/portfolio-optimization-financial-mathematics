@@ -1,0 +1,54 @@
+# Portfolio Optimization & Financial Mathematics - Dependencies
+
+## R Packages
+
+### Core Analysis
+rugarch>=1.4-7          # GARCH volatility modeling
+tseries>=0.10-50        # Time series analysis (ADF test)
+zoo>=1.8-11             # Time series data structures
+FinTS>=0.4-6            # Financial time series (ARCH-LM test)
+
+### Data Manipulation
+readxl>=1.4.0           # Read Excel files
+dplyr>=1.1.0            # Data manipulation
+tidyr>=1.3.0            # Data tidying
+
+### Visualization
+ggplot2>=3.4.0          # Advanced plotting
+plotly>=4.10.0          # Interactive plots
+
+### Optional - Python Alternative
+# pandas>=1.5.0         # Data manipulation (Python)
+# numpy>=1.23.0         # Numerical operations (Python)
+# scipy>=1.9.0          # Optimization (Python)
+# statsmodels>=0.14.0   # Time series models (Python)
+# arch>=5.3.0           # GARCH models (Python)
+# matplotlib>=3.6.0     # Plotting (Python)
+
+## Excel Add-ins Required
+# - Solver (Optimization)
+# - Data Analysis ToolPak (Regression)
+
+## System Requirements
+# - R version 4.0+
+# - Microsoft Excel 2016+
+# - Windows/Mac/Linux
+
+## Installation Instructions (R)
+
+# Install all packages at once:
+install.packages(c(
+    "rugarch",
+    "tseries",
+    "zoo",
+    "FinTS",
+    "readxl",
+    "dplyr",
+    "tidyr",
+    "ggplot2",
+    "plotly"
+))
+
+## Installation Instructions (Python - Optional)
+
+# pip install pandas numpy scipy statsmodels arch matplotlib
